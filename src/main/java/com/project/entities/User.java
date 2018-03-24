@@ -1,3 +1,4 @@
+/*
 package com.project.entities;
 
 import javax.persistence.*;
@@ -47,3 +48,4 @@ public class User {
         this.email = email;
     }
 }
+*/

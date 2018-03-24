@@ -1,11 +1,14 @@
 package com.project.entities;
 
 
+import java.util.Date;
+
 public class FacebookAccount {
 
     private Long id;
     private String facebookUser;
     private String facebookPassword;
+    private Date deadLine;
 
     public FacebookAccount() {}
 
@@ -29,5 +32,12 @@ public class FacebookAccount {
     }
     public void setFacebookPassword(String facebookPassword) {
         this.facebookPassword = facebookPassword;
+    }
+
+    public Date getDeadLine() {
+        return this.deadLine;
+    }
+    public void setDeadLine(Date deadLine) {
+        this.deadLine = deadLine;
     }
 }
