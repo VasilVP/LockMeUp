@@ -4,6 +4,7 @@ import com.project.password.PasswordGenerator;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import javax.crypto.Cipher;
 import java.io.File;
 
 @Component

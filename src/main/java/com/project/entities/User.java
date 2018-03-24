@@ -1,5 +1,6 @@
-/*
 package com.project.entities;
+
+import com.project.Enums.Roles;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
@@ -11,6 +12,8 @@ public class User {
     private String username;
     private String password;
     private String email;
+    private Roles role;
+   // private FacebookAccount fbAccount;
 
     public User() {}
 
@@ -41,11 +44,27 @@ public class User {
         this.password = password;
     }
 
+    @Column(name = "email", nullable = false)
     public String getEmail() {
         return this.email;
     }
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Column(name = "role")
+    public Roles getRole() {
+        return this.role;
+    }
+    public void setRole(Roles role) {
+        this.role = role;
+    }
+
+
+//    public FacebookAccount getFbAccount() {
+//        return this.fbAccount;
+//    }
+//    public void setFbAccount(FacebookAccount fbAccount) {
+//        this.fbAccount = fbAccount;
+//    }
 }
-*/
