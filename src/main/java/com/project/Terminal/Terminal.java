@@ -1,5 +1,6 @@
 package com.project.Terminal;
 
+import com.project.Email.Email;
 import com.project.password.PasswordGenerator;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -27,6 +28,7 @@ public class Terminal implements CommandLineRunner {
 
 
         //String launchPath = projectPath + htmlPath;
+        //Email.sendEmailTo("trollaway111@gmail.com", "subject", "text");
 
         Runtime rTime = Runtime.getRuntime();
         String url = "F:\\HACKATON\\LockMeUp\\src\\main\\java\\com\\project\\views\\index.html";
