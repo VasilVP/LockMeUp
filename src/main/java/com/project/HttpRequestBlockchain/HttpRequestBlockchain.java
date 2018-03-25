@@ -1,4 +1,4 @@
-package com.project.HttpRequest;
+package com.project.HttpRequestBlockchain;
 
 
 import okhttp3.OkHttpClient;
@@ -7,7 +7,7 @@ import okhttp3.Response;
 
 import java.io.IOException;
 
-public class HttpRequest {
+public class HttpRequestBlockchain {
     OkHttpClient client = new OkHttpClient();
 
     String getRequest(String url) throws IOException {
